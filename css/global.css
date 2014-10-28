@@ -1,0 +1,76 @@
+.navbar .nav>li>span{
+	float:none;
+	padding:10px 10px 11px;
+	line-height:19px;
+	color:#999999;
+	text-decoration:none;
+	text-shadow:0 -1px 0 rgba(0, 0, 0, 0.25);
+	cursor: pointer;
+}
+
+.navbar .nav>li>span:hover{
+	color:#ffffff;
+	text-decoration:none;
+	background-color:#222222;
+}
+
+.nav>li>span{
+	display:block;
+}
+
+#tchat{
+	background-color: #ffffff;
+	width:830px;
+	height:70px;
+	margin-left: 20px;
+	overflow-y:auto;
+}
+
+.live {
+position: absolute;
+color: white;
+z-index: 1;
+font-weight: 600;
+font-family: Arial;
+font-size: 12pt;
+left: 5px;
+top: 38px;
+text-shadow: 1px 1px red;
+letter-spacing: 1px;
+}
+.local-feed, .remote-feed{
+width: 25%;
+margin-left: 20%;
+float: left;
+}
+.remote-feed{
+margin-left: 5%;
+}
+video{
+border: 2px solid rgb(31, 121, 129);
+border-radius: 5px;
+margin-top: 20px;
+}
+.feed-title{
+font-size: 16px;
+font-weight: bolder;
+color: rgb(18, 112, 187) !important;
+text-transform: uppercase;
+text-decoration: underline;
+}
+.alert-text{
+text-align: center !important;
+width: 70%; 
+margin-left: 15%; 
+margin-top: 20px;
+font-size: 13px;
+border-width: 3px !important;
+font-weight: bolder;
+}
+.navbar-inner{
+background-image: -webkit-linear-gradient(top, #08213B, #07494E) !important;
+background-image: linear-gradient(top, #08213B, #07494E) !important;
+}
+.navbar .navbar-text{
+color: #CCC !important;
+}
